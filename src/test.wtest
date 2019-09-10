@@ -1,0 +1,74 @@
+import clientes.*
+import remicerdos.*
+
+test "roxana_TEST_10KM" {
+
+	anaMaria.estaEconomicamenteEstable(true)
+	assert.equals(roxana.valorDeViaje(10, ludmila), 180)
+	assert.equals(roxana.valorDeViaje(10, anaMaria), 300)
+	assert.equals(roxana.valorDeViaje(10, teresa), 220)	
+}
+
+test "gabriela_TEST_10KM" {
+
+	anaMaria.estaEconomicamenteEstable(true)
+	assert.equals(gabriela.valorDeViaje(10, ludmila), 216)
+	assert.equals(gabriela.valorDeViaje(10, anaMaria), 360)
+	assert.equals(gabriela.valorDeViaje(10, teresa), 264)	
+}
+
+test "mariela_TEST_10KM" {
+
+	anaMaria.estaEconomicamenteEstable(true)
+	assert.equals(mariela.valorDeViaje(10, ludmila), 180)
+	assert.equals(mariela.valorDeViaje(10, anaMaria), 300)
+	assert.equals(mariela.valorDeViaje(10, teresa), 220)	
+}
+
+test "juana_TEST_10KM" {
+
+	anaMaria.estaEconomicamenteEstable(true)
+	assert.equals(juana.valorDeViaje(10, ludmila), 200)
+	assert.equals(juana.valorDeViaje(10, anaMaria), 200)
+	assert.equals(juana.valorDeViaje(10, teresa), 200)	
+}
+
+test "roxana_TEST_2KM" {
+	
+	anaMaria.estaEconomicamenteEstable(true)
+	assert.equals(roxana.valorDeViaje(2, ludmila), 36)
+	assert.equals(roxana.valorDeViaje(2, anaMaria), 60)
+	assert.equals(roxana.valorDeViaje(2, teresa), 44)
+}
+
+test "gabriela_TEST_2KM" {
+	
+	anaMaria.estaEconomicamenteEstable(true)
+	assert.equals(gabriela.valorDeViaje(2, ludmila), 43.2)
+	assert.equals(gabriela.valorDeViaje(2, anaMaria), 72)
+	assert.equals(gabriela.valorDeViaje(2, teresa), 52.80)
+}
+
+test "mariela_TEST_2KM" {
+	
+	anaMaria.estaEconomicamenteEstable(true)
+	assert.equals(gabriela.valorDeViaje(2, ludmila), 50)
+	assert.equals(gabriela.valorDeViaje(2, anaMaria), 60)
+	assert.equals(gabriela.valorDeViaje(2, teresa), 50)
+}
+
+test "juana_TEST_2KM" {
+	
+	anaMaria.estaEconomicamenteEstable(true)
+	assert.equals(juana.valorDeViaje(2, ludmila), 100)
+	assert.equals(juana.valorDeViaje(2, anaMaria), 100)
+	assert.equals(juana.valorDeViaje(2, teresa), 100)
+}
+
+
+
+
+
+
+
+
